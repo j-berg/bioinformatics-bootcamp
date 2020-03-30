@@ -8,35 +8,21 @@
 - Shortcuts and environment setup 
 HW: Submit CHPC application 
 
-2. Basics I: https://docs.google.com/presentation/d/1B8kvetTDwUe-d7hZuV2NufVOMPM7MCxh_MyP-n9yDZo/edit
-HW: review 
+2. File types and using bioinformatics tools
+HW: review BAM format and samtools
 
-3. Basics II: https://docs.google.com/presentation/d/1YSXYqCSHUZGRVr00oTttv_v1u83ccPLpF5_TMtW0iRI/edit
-HW
-	- download GTF file
-	- search for where gene X is 
-	- Create truncated GTF file with just Chr IV genes
-	- Create truncated FASTQ file with just the first 100 reads
-	
+3. Using bioinformatics tools
+Trimming, alignment, post-processing
+HW: review
 
 
 ### WEEK 2
 
-4. Anaconda, Bioconda, and SRA  
-HW: Download samtools, STAR, and XPRESSpipe to environment
+4. Data QC
 
-5. Using tools and their documentation; GitHub
-	- Samtools 
-	- STAR 
-	- XPRESSpipe 
-HW: 
-	- Download BAM file 
-	- Read BAM file docs 
-	- Make Github Account
+5. Supercomputing
 
-6. SLURM environment  and file locations; SLURM jobs
-HW: Download FASTQ file and align with STAR
-
+6. Tools and their documentation; GitHub; Biostars; StackOverflow; review
 
 
 ### WEEK 3 
@@ -72,6 +58,7 @@ HW: Download ggplot2, DESeq2
 HW: DESeq2 docs and run analysis from counts table  
 
 12. Plotting with ggplot2 
+— Alex Bott
 HW: Make scatter plot with count data to see if technical replicates look okay
 
 
@@ -84,4 +71,6 @@ HW: Make scatter plot with count data to see if technical replicates look okay
 14. Metabolomics examples
 — Alex Bott
 
-15. Resources and continued learning 
+15. Resources and continued learning; Programming in other languages and their utilities
+
+
