@@ -2,25 +2,27 @@
 
 ### WEEK 1
 
-1. Introduction to Unix — portal to data processing 
+1. 30 Mar 2020: Introduction to Unix — portal to data processing 
 - At least know what is possible 
 - Bash shell in Windows 
 - Shortcuts and environment setup 
-HW: Submit CHPC application 
+HW: Review commands
 
-2. File types and using bioinformatics tools
+2. 01 Apr 2020: Introduction to Unix — portal to data processing PART II
+- Advanced file handling
+HW: CHPC application
+
+3. 03 Apr 2020:  File types and using bioinformatics tools
+- Anaconda and brew 
+- Reading a BAM file
 HW: review BAM format and samtools
-
-3. Using bioinformatics tools
-Trimming, alignment, post-processing
-HW: review
 
 
 ### WEEK 2
 
-4. Data QC
+4. Trimming, alignment, post-processing
 
-5. Supercomputing
+5. Supercomputing; Data QC
 
 6. Tools and their documentation; GitHub; Biostars; StackOverflow; review
 
