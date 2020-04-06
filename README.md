@@ -25,6 +25,7 @@ HW: review BAM format and samtools
 5. Supercomputing; Data QC
 
 6. Tools and their documentation; GitHub; Biostars; StackOverflow; review
+    HW: Download R Studio
 
 
 ### WEEK 3 
