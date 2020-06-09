@@ -1,0 +1,56 @@
+Class 1.1 Homework
+==================
+
+1. Log into the supercomputer
+- Open PuTTY or Terminal
+$ ssh uNID@notchpeak.chpc.utah.edu
+
+2. Print your current working directory to the console
+$ pwd
+
+3. Make a folder called “class_1”
+$ mkdir class_1
+
+4. Navigate into this new folder
+$ cd class_1
+
+5. Make a new file called “test.txt” within the folder
+$ touch test.txt
+
+6. Append “Hello World” to the file
+$ echo "Hellow World > test.txt
+
+7. Print out the number of lines in the file
+$ wc -l test.txt
+
+8. Navigate back to your home directory
+$ cd ../
+or 
+$ cd ~
+
+9. Logout
+$ logout 
+or 
+$ exit
+
+
+Class 1.2 Homework
+==================
+1. Log into the supercomputer
+- Open PuTTY or Terminal
+$ ssh uNID@notchpeak.chpc.utah.edu
+
+2. Download a 3 BAM files from the Thousand Genomes Project
+- Open a Chrome browser and navigate to ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/
+- Navigate through the folder tree and find 3 BAM files 
+- Right click and copy URL ("Copy Link Address")
+- In the supercomputer, run the following:
+$ curl -OL ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/data/NA07357/alignment/NA07357.SLX.MOSAIK.SRP000033.2009_11.bam
+...
+
+3. Determine the sex of the individual
+$ samtools view NA07357.SLX.MOSAIK.SRP000033.2009_11.bam | grep "Y" | wc -l 
+$ samtools view NA07357.SLX.MOSAIK.SRP000033.2009_11.bam | grep "X" | wc -l
+
+4. Remove the BAM files to free up the space from your home directory
+$ rm NA07357.SLX.MOSAIK.SRP000033.2009_11.bam
