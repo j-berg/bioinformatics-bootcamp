@@ -45,7 +45,8 @@ def make_dictionary(gtf, type_id="gene"):
 
     gtf_c = gtf.copy()
     gtf_c = gtf_c.loc[gtf_c[type_col] == type_id]
-
+    print(gtf_c.head(10))
+    
     gtf_c['intermediate_id'] = gtf_c[8].str.split('gene_id \"').str[1]
     gtf_c['id'] = gtf_c['intermediate_id'].str.split('\"; ').str[0]
 
